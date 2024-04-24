@@ -1,0 +1,31 @@
+{
+  "name": "shared",
+  "private": "true",
+  "keywords": [
+    "react",
+    "lexical",
+    "editor",
+    "rich-text"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "license": "MIT",
+  "version": "0.12.2",
+  "dependencies": {
+    "@lexical/utils": "^0.12.2",
+    "epitelete": "^0.2.20",
+    "lexical": "0.12.2"
+  },
+  "devDependencies": {
+    "proskomma-core": "^0.10.4"
+  },
+  "peerDependencies": {
+    "proskomma-core": "^0.10.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abelpz/bible-lexical-editor",
+    "directory": "packages/shared"
+  }
+}

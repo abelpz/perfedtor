@@ -1,0 +1,15 @@
+{
+  "name": "perf-vanilla",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@lexical/rich-text": "^0.12.2",
+    "@lexical/utils": "^0.12.2",
+    "lexical": "^0.12.2",
+    "shared": "*"
+  }
+}
